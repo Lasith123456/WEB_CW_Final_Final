@@ -299,10 +299,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-bottom: 20px;
+    /*align-items: center;*/
+    /*padding-left: 120px;*/
+    /*padding-right: 120px;*/
+    /*margin-bottom: 20px;*/
 }
 
 .hero2-logo{

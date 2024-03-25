@@ -292,7 +292,7 @@ body{
 
 .hero2{
     font-family: inherit;
-    background-image: url(logo\ background.jpg);
+    background-image: url("../images/logo background.jpg");
     height: 100vh;
     background-size: cover;
     color:white;
@@ -410,7 +410,7 @@ body{
     border:none;
     border-radius: 6px;
     font-weight: 600;
-    color:gray;
+
     margin-top: 16px;
     display: block;
 }

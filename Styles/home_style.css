@@ -292,6 +292,7 @@ body{
 
 .hero2{
     font-family: inherit;
+    width: inherit;
     background-image: url("../images/logo background.jpg");
     height: 100vh;
     background-size: cover;

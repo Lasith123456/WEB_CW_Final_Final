@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../Styles/feedback_style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    
+
+
+
+</head>
+
+
+<body>
+    <h1>Feedback form</h1><br>
+    <h3>Required fields *</h3> 
+
+    <script src="script.js"></script>
+    
+    <form action="submit_feedback.php" method="post">
+        <label for="name">* Enter your name :</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">* Enter your email :</label>
+        <input type="email" id="email" name="email" required><br>
+
+            <p>Was this your first time visiting ?</p>
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied" required>
+            <label for="satisfied">Yes</label>
+            
+            <input type="radio" id="neutral" name="satisfaction" value="neutral">
+            <label for="neutral">No</label>
+
+
+            <p>Was this website informative and easy to navigate through ?</p>
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied" required>
+            <label for="satisfied">Yes</label>
+            
+            <input type="radio" id="neutral" name="satisfaction" value="neutral">
+            <label for="neutral">No</label> <br><br>
+
+
+            <label for="feedback">*If "No" suggest any improvements for the future :</label><br><br>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+            <p>How satidsfied are you with our service ? Choose from 0 to 10, with 1 being "Not<br>satisfied at all!" and 10 being "Extremly satisfied!"</p>
+                    
+            <div>
+                    
+            
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="1">
+                <label class="rating-label" for="unsatisfied">1</label>
+
+                
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="2">
+                <label class="rating-label" for="unsatisfied">2</label>
+
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="3">
+                <label class="rating-label" for="unsatisfied">3</label>
+
+                
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="4">
+                <label class="rating-label" for="unsatisfied">4</label>
+
+                
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="5">
+                <label class="rating-label" for="unsatisfied">5</label>
+
+                
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="6">
+                <label class="rating-label" for="unsatisfied">6</label>
+
+                
+                <input type="radio" id="unsatisfied" name="satisfaction" class="rating-input" value="7">
+                <label class="rating-label" for="unsatisfied">7</label>
+
+                
+                <input type="radio" id="neutral" name="satisfaction" class="rating-input" value="8">
+                <label class="rating-label" for="neutral">8</label>
+
+                
+                <input type="radio" id="very-satisfied" name="satisfaction" class="rating-input" value="9">
+                <label class="rating-label" for="very-satisfied">9</label>
+
+                
+                <input type="radio" id="satisfied" name="satisfaction" class="rating-input" value="10" required>
+                <label class="rating-label" for="satisfied">10</label>
+
+            </div>
+                
+            <p>would you recomend our service ?</p>
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied" required>
+            <label for="satisfied">Yes</label>
+            
+            <input type="radio" id="neutral" name="satisfaction" value="neutral">
+            <label for="neutral">No</label><br><br>
+
+
+            <label for="rating">* Would you like to receive updates about the website and any offers ?</label><br><br>
+            <select id="rating" name="rating">
+                <option value="5">Very Satisfied</option>
+                <option value="4">Satisfied</option>
+                <option value="3">Neutral</option>
+                <option value="2">Unsatisfied</option>
+                <option value="1">Very Unsatisfied</option>
+            </select><br><br>
+           
+
+            
+            <label for="feedback">Do you have any additional questions or requests ?</label><br><br>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+
+            <input type="submit" value="Submit">
+
+            
+            
+                       
+           
+
+           
+
+
+        
+        
+    </form>
+    
+</body>
+</html>
